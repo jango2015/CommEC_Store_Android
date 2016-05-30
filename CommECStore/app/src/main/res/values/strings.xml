@@ -1,3 +1,50 @@
 <resources>
-    <string name="app_name">CommEC Store</string>
+    <string name="app_name">兜兜商家</string>
+
+    <!-- Tab -->
+    <string name="tab_order_management">订单管理</string>
+    <string name="tab_order_search">订单查询</string>
+    <string name="tab_shop_management">店铺管理</string>
+    <string name="tab_my_setting">我的设置</string>
+
+    <!-- S1 登入頁 -->
+        <!-- S1.1.0登入或註冊 -->
+        <string name="signin_et_enter_cellphone">请输入手机号码</string>
+        <string name="signin_et_enter_pwd">请输入密码</string>
+        <string name="signin_tv_forgot_pwd">忘记密码</string>
+        <string name="signin_btn_signin">登入</string>
+
+        <!-- S1.2.0登入-忘記密碼-1輸入手機號碼 -->
+        <string name="signin_forgot_pwd_tv_title">忘记密码</string>
+        <string name="signin_forgot_pwd_et_enter_cellphone">手机号码</string>
+        <string name="signin_forgot_pwd_btn_get_code">取得验证码</string>
+        <!-- S1.2.0登入-忘記密碼-2輸入驗證碼 -->
+        <string name="signin_forgot_pwd_et_enter_code">请输入验证码</string>
+        <string name="signin_forgot_pwd_btn_confirm_code">确认验证码</string>
+        <string name="signin_forgot_pwd_tv_countdown">%1$s后可重发验证码</string>
+        <!-- S1.2.0登入-忘記密碼-3設定新密碼 -->
+        <string name="signin_forgot_pwd_setting_new_tv_title">设定新密码</string>
+        <string name="signin_forgot_pwd_setting_new_et_new_pwd">新密码</string>
+        <string name="signin_forgot_pwd_setting_new_et_new_confirm_new_pwd">确认新密码</string>
+        <string name="signin_forgot_pwd_setting_new_btn_confirm_code">确定</string>
+
+
+    <!-- S2 訂單管理 -->
+
+
+
+    <!-- S3 訂單查詢 -->
+
+
+
+    <!-- S4 店鋪管理 -->
+
+    <!-- S4.0.0門店管理 -->
+    <string name="shop_management_btn_shop_detail">查看店铺</string>
+
+
+    <!-- S6 我的設置 -->
+
+
+
 </resources>

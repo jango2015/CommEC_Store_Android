@@ -2,4 +2,36 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Common -->
+    <dimen name="common_ddou_return_left_space">30dp</dimen>             <!-- 返回按鈕與左邊的距離 -->
+    <dimen name="common_ddou_return_top_space">23dp</dimen>              <!-- 返回按鈕與頂部的距離 -->
+    <dimen name="common_ddou_icon_top_space">40dp</dimen>                <!-- 兜 icon與頂部的距離 -->
+    <dimen name="common_ddou_icon_bottom_space">60dp</dimen>             <!-- 兜 icon與底部的距離 -->
+
+    <!-- Tab -->
+    <dimen name="main_tab_txt_sp">10sp</dimen>                           <!-- Tab 文字大小 -->
+    <dimen name="main_tab_top_space">2dp</dimen>                               <!-- Tab top space -->
+
+    <dimen name="header_txt_sp">21.3sp</dimen>                           <!-- Header title 文字大小 -->
+
+
+    <!-- S1 登入頁 -->
+        <!-- S1.1.0登入或註冊 -->
+        <dimen name="signin_et_sp">21.3sp</dimen>                        <!-- 編輯框 文字大小 -->
+        <dimen name="signin_btn_sp">21.3sp</dimen>                       <!-- 按鈕 文字大小 -->
+
+        <dimen name="signin_et_w">180dp</dimen>                          <!-- 編輯框 寬度 -->
+
+        <dimen name="signin_et_icon_top_space">5dp</dimen>                     <!-- 編輯框左側圖示與上緣 距離 -->
+        <dimen name="signin_et_icon_bottom_space">5dp</dimen>                  <!-- 編輯框左側圖示與下緣 距離 -->
+        <dimen name="signin_et_icon_left_space">7dp</dimen>                    <!-- 編輯框左側圖示與左邊 距離 -->
+        <dimen name="signin_et_icon_right_space">15dp</dimen>                  <!-- 編輯框左側圖示與右邊 距離 -->
+
+        <dimen name="signin_txt_forget_pwd_w">252dp</dimen>              <!-- 忘記密碼 寬度 -->
+        <dimen name="signin_txt_forget_pwd_sp">16sp</dimen>              <!-- 忘記密碼 文字大小 -->
+
+        <dimen name="signin_btn_signin_top_space">65dp</dimen>                 <!-- 登入按鈕與頂部 距離 -->
+        <dimen name="signin_btn_signup_top_space">26.7dp</dimen>               <!-- 我要註冊按鈕與頂部 距離 -->
+
 </resources>
