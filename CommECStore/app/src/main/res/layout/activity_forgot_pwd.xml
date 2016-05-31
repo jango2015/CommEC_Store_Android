@@ -1,7 +1,213 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
 
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ibtn_header_return"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_ddou_return_left_space"
+                android:layout_marginTop="@dimen/common_ddou_return_top_space"
+                android:background="@drawable/selector_btn_return_signin"
+                android:contentDescription="return"/>
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/common_ddou_icon_top_space"
+                android:src="@mipmap/img_logo"/>
+
+            <LinearLayout
+                android:id="@+id/ll_cellphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_forgot_pwd_subject"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/ll_forgot_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/rl_cellphone"
+                        android:layout_width="@dimen/signin_forget_pwd_et_bg_w"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/img_square"
+                        android:layout_marginBottom="@dimen/signin_forget_pwd_et_tb_space">
+
+                        <EditText
+                            android:id="@+id/et_enter_cellphone"
+                            android:layout_width="@dimen/signin_forget_pwd_et_w"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/signin_forget_pwd_et_left_space"
+                            android:background="@null"
+                            android:ems="10"
+                            android:hint="@string/signin_forgot_pwd_et_enter_cellphone"
+                            android:inputType="phone"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@color/color_9b9b9b"
+                            android:textSize="@dimen/signin_forget_pwd_et_sp"/>
+
+                        <ImageView
+                            android:id="@+id/iv_cellphone_confirm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/signin_forget_pwd_iv_check_right_space"
+                            android:src="@mipmap/img_confirm"
+                            android:visibility="invisible"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_signup_code"
+                        android:layout_width="@dimen/signin_forget_pwd_et_bg_w"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/img_square"
+                        android:visibility="gone"
+                        android:layout_marginBottom="@dimen/signin_forget_pwd_et_tb_space">
+
+                        <EditText
+                            android:id="@+id/et_enter_code"
+                            android:layout_width="@dimen/signin_forget_pwd_et_w"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/signin_forget_pwd_et_left_space"
+                            android:background="@null"
+                            android:ems="10"
+                            android:hint="@string/signin_forgot_pwd_et_enter_code"
+                            android:inputType="number"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@color/color_9b9b9b"
+                            android:textSize="@dimen/signin_forget_pwd_et_sp"/>
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_set_new_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/ll_new_pwd"
+                        android:layout_width="@dimen/signin_forget_pwd_et_bg_w"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/img_square"
+                        android:gravity="center_vertical">
+
+                        <EditText
+                            android:id="@+id/et_new_pwd"
+                            android:layout_width="@dimen/signin_forget_pwd_et_w"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/signin_forget_pwd_et_left_space"
+                            android:background="@null"
+                            android:ems="16"
+                            android:hint="@string/signin_forgot_pwd_setting_new_et_new_pwd"
+                            android:inputType="textPassword"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@color/color_9b9b9b"
+                            android:textSize="@dimen/signin_forget_pwd_et_sp"/>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ll_new_pwd_confirm"
+                        android:layout_width="@dimen/signin_forget_pwd_et_bg_w"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/signin_forget_pwd_et_tb_space"
+                        android:background="@mipmap/img_square"
+                        android:layout_marginBottom="@dimen/signin_forget_pwd_et_tb_space">
+
+                        <EditText
+                            android:id="@+id/et_new_pwd_confirm"
+                            android:layout_width="@dimen/signin_forget_pwd_et_w"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/signin_forget_pwd_et_left_space"
+                            android:background="@null"
+                            android:ems="16"
+                            android:hint="@string/signin_forgot_pwd_setting_new_et_new_confirm_new_pwd"
+                            android:inputType="textPassword"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@color/color_9b9b9b"
+                            android:textSize="@dimen/signin_forget_pwd_et_sp"/>
+
+                        <ImageView
+                            android:id="@+id/tv_new_pwd_confirm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/signin_forget_pwd_iv_check_right_space"
+                            android:src="@mipmap/img_confirm"
+                            android:visibility="invisible"/>
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@mipmap/btn_orange"
+                    android:text="@string/signin_forgot_pwd_btn_get_code"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/signin_forget_pwd_btn_sp"/>
+
+                <TextView
+                    android:id="@+id/tv_countdown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/signin_forget_pwd_et_tb_space"
+                    android:text="@string/signin_forgot_pwd_tv_countdown"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/signin_forget_pwd_countdown_sp"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_forgot_pwd_subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/signin_forget_pwd_subject_bottom_space"
+                android:layout_marginTop="@dimen/signin_forget_pwd_subject_top_space"
+                android:text="@string/signin_forgot_pwd_setting_new_tv_title"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_191919"
+                android:textSize="@dimen/signin_forget_pwd_subject_sp"/>
+
+        </RelativeLayout>
+    </ScrollView>
 </LinearLayout>
