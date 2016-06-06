@@ -49,4 +49,39 @@
 
         <dimen name="signin_forget_pwd_countdown_sp">16sp</dimen>             <!-- 重新發送提示 文字大小 -->
 
+
+    <!-- S4.0.0門店管理 -->
+    <dimen name="shop_detail_banner_h">159.3dp</dimen>                    <!-- 店鋪 Banner 高度 -->
+    <dimen name="shop_detail_banner_icon_tl">13.3dp</dimen>               <!-- 店鋪 Banner 左右 icon 上方及左右側 距離 -->
+    <dimen name="shop_detail_banner_bottom_h">47.7dp</dimen>              <!-- 店鋪 Banner 店鋪資訊區塊 高度 -->
+    <dimen name="shop_detail_category_h">53.3dp</dimen>                   <!-- 店鋪 Banner 類別區塊 高度 -->
+    <dimen name="shop_detail_category_sp">12sp</dimen>                    <!-- 店鋪 Banner 類別區塊 分類區塊 文字大小 -->
+    <dimen name="shop_detail_shop_name_sp">16sp</dimen>                   <!-- 店鋪 Banner 類別區塊 bottom 區塊 店家名稱 文字大小 -->
+    <dimen name="shop_detail_shop_detail_sp">10sp</dimen>                 <!-- 店鋪 Banner 類別區塊 bottom 區塊 店家資訊 文字大小 -->
+    <dimen name="shop_detail_shop_rating_h">11.3dp</dimen>                <!-- 店鋪 Banner 類別區塊 評分區塊 高度 -->
+    <dimen name="shop_detail_shop_detail_btn_h">16dp</dimen>              <!-- 店鋪 Banner 店舖簡介 高度 -->
+    <dimen name="shop_detail_shop_detail_btn_w">100dp</dimen>             <!-- 店鋪 Banner 店舖簡介 寬度 -->
+    <dimen name="shop_detail_shop_address_bottom_space">7.3dp</dimen>     <!-- 店鋪 Banner 店舖地址與下緣 距離 -->
+    <dimen name="shop_detail_shop_address_top_space">3.7dp</dimen>        <!-- 店鋪 Banner 店舖地址與上方電話 距離 -->
+    <dimen name="shop_detail_shop_phone_top_space">10dp</dimen>           <!-- 店鋪 Banner 店舖電話與店名 距離 -->
+    <dimen name="shop_detail_shop_rating_sp">16sp</dimen>                 <!-- 店鋪 Banner 店舖評分 文字大小 -->
+    <dimen name="shop_detail_shop_rating_right_space">6.7dp</dimen>       <!-- 店鋪 Banner 店舖評分與右方分數距離 -->
+    <dimen name="shop_detail_shop_detail_btn_top_space">3.3dp</dimen>     <!-- 店鋪 Banner 店舖簡介按鈕與上方評分 距離 -->
+    <dimen name="shop_detail_bottom_left_block_left_space">6.7dp</dimen>  <!-- 店鋪 Banner 類別區塊 bottom 區塊 左側距離 -->
+    <dimen name="shop_detail_bottom_right_block_right_space">10dp</dimen> <!-- 店鋪 Banner 類別區塊 bottom 區塊 右側距離 -->
+
+    <dimen name="shop_detail_middle_block_top_space">3.3dp</dimen>        <!-- 店鋪 中間區塊 與上方 Banner 間距 -->
+    <dimen name="shop_detail_middle_block_w">114.7dp</dimen>              <!-- 店鋪 中間區塊 寬度 -->
+    <dimen name="shop_detail_middle_block_h">66.7dp</dimen>               <!-- 店鋪 中間區塊 高度 -->
+    <dimen name="shop_detail_middle_block_sp">16sp</dimen>                <!-- 店鋪 中間區塊 文字大小 -->
+    <dimen name="shop_detail_middle_block_space">4dp</dimen>              <!-- 店鋪 中間區塊 左右間距 -->
+    <dimen name="shop_detail_middle_tv_space">10dp</dimen>                <!-- 店鋪 中間區塊 文字間距 -->
+
+    <dimen name="shop_detail_bottom_block_wh">175dp</dimen>               <!-- 店鋪 底部區塊 寬高 -->
+    <dimen name="shop_detail_bottom_btn_space">3.3dp</dimen>              <!-- 店鋪 底部區塊 左右距離 -->
+    <dimen name="shop_detail_bottom_btn_v_space">3.3dp</dimen>            <!-- 店鋪 底部區塊 垂直距離 -->
+    <dimen name="shop_detail_bottom_block_sp">16sp</dimen>                <!-- 店鋪 底部區塊 文字大小 -->
+    <dimen name="shop_detail_bottom_btn_txt_space">18.3dp</dimen>         <!-- 店鋪 底部區塊 按鈕文字與 icon 距離 -->
+
+
 </resources>

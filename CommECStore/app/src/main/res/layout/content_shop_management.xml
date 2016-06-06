@@ -1,7 +1,337 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
 
-</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rl_shop_detail_banner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shop_detail_banner_h"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/iv_shop_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:alpha="50"
+            android:background="@mipmap/img_store_title_background"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/shop_detail_bottom_left_block_left_space"
+                android:layout_weight="1"
+                android:gravity="center_vertical|bottom|left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_shop_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shop name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/shop_detail_shop_name_sp"/>
+
+                <TextView
+                    android:id="@+id/tv_shop_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop_detail_phone"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/shop_detail_shop_detail_sp"/>
+
+                <TextView
+                    android:id="@+id/tv_shop_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop_detail_address"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/shop_detail_shop_detail_sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/shop_detail_bottom_right_block_right_space"
+                android:layout_weight="1"
+                android:gravity="bottom|end"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RatingBar
+                        android:id="@+id/rb_shop_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/shop_detail_shop_rating_h"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/tv_search_shop_name"
+                        android:layout_marginRight="@dimen/shop_detail_shop_rating_right_space"
+                        android:numStars="5"
+                        android:progressDrawable="@drawable/custom_ratingbar"
+                        android:rating="3.5"
+                        android:stepSize="0.5"/>
+
+                    <TextView
+                        android:id="@+id/tv_shop_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2.5"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/shop_detail_shop_rating_sp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_shop_detail"
+                    android:layout_width="@dimen/shop_detail_shop_detail_btn_w"
+                    android:layout_height="@dimen/shop_detail_shop_detail_btn_h"
+                    android:background="@android:color/transparent"
+                    android:drawableRight="@mipmap/btn_down"
+                    android:text="@string/shop_detail_btn_shop_detail"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/shop_detail_shop_detail_sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_shop_detail_banner"
+        android:background="@color/color_d8d8d8"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_middle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_shop_detail_banner"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/shop_detail_middle_block_top_space"
+            android:paddingBottom="@dimen/shop_detail_middle_block_top_space">
+
+            <LinearLayout
+                android:id="@+id/ll_today_new_order"
+                android:layout_width="@dimen/shop_detail_middle_block_w"
+                android:layout_height="@dimen/shop_detail_middle_block_h"
+                android:background="@android:color/white"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_today_new_order_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/shop_detail_middle_tv_space"
+                    android:text="number"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_d8d8d8"
+                    android:textSize="@dimen/shop_detail_middle_block_sp"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop_detail_new_order"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_d8d8d8"
+                    android:textSize="@dimen/shop_detail_middle_block_sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_today_sum"
+                android:layout_width="@dimen/shop_detail_middle_block_w"
+                android:layout_height="@dimen/shop_detail_middle_block_h"
+                android:layout_marginLeft="@dimen/shop_detail_middle_block_top_space"
+                android:layout_marginRight="@dimen/shop_detail_middle_block_top_space"
+                android:background="@android:color/white"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_today_sum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/shop_detail_middle_tv_space"
+                    android:text="@string/shop_detail_today_sum_num"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_d8d8d8"
+                    android:textSize="@dimen/shop_detail_middle_block_sp"/>
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop_detail_today_sum"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_d8d8d8"
+                    android:textSize="@dimen/shop_detail_middle_block_sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_sum_30_days"
+                android:layout_width="@dimen/shop_detail_middle_block_w"
+                android:layout_height="@dimen/shop_detail_middle_block_h"
+                android:background="@android:color/white"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_sum_30_days"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/shop_detail_middle_tv_space"
+                    android:text="@string/shop_detail_sum_30_days_num"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_d8d8d8"
+                    android:textSize="@dimen/shop_detail_middle_block_sp"/>
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop_detail_sum_30_days"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_d8d8d8"
+                    android:textSize="@dimen/shop_detail_middle_block_sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/shop_detail_bottom_btn_v_space">
+
+            <LinearLayout
+                android:id="@+id/ll_broswe_goods"
+                android:layout_width="@dimen/shop_detail_bottom_block_wh"
+                android:layout_height="@dimen/shop_detail_bottom_block_wh"
+                android:layout_marginRight="@dimen/shop_detail_bottom_btn_space"
+                android:background="@android:color/white"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_broswe_goods"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/shop_detail_bottom_btn_txt_space"
+                    android:background="@mipmap/btn_product"/>
+
+                <TextView
+                    android:id="@+id/tvb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop_detail_browse_goods"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_d8d8d8"
+                    android:textSize="@dimen/shop_detail_bottom_block_sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_order_management"
+                android:layout_width="@dimen/shop_detail_bottom_block_wh"
+                android:layout_height="@dimen/shop_detail_bottom_block_wh"
+                android:background="@android:color/white"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_order_management"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/shop_detail_bottom_btn_txt_space"
+                    android:background="@mipmap/btn_manage_invoice"/>
+
+                <TextView
+                    android:id="@+id/tvb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop_detail_order_management"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_d8d8d8"
+                    android:textSize="@dimen/shop_detail_bottom_block_sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_message_centre"
+                android:layout_width="@dimen/shop_detail_bottom_block_wh"
+                android:layout_height="@dimen/shop_detail_bottom_block_wh"
+                android:layout_marginRight="@dimen/shop_detail_bottom_btn_space"
+                android:background="@android:color/white"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_message_centre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/shop_detail_bottom_btn_txt_space"
+                    android:background="@mipmap/btn_message_center"/>
+
+                <TextView
+                    android:id="@+id/tvb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop_detail_message_centre"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_d8d8d8"
+                    android:textSize="@dimen/shop_detail_bottom_block_sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_settle_account"
+                android:layout_width="@dimen/shop_detail_bottom_block_wh"
+                android:layout_height="@dimen/shop_detail_bottom_block_wh"
+                android:background="@android:color/white"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_settle_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/shop_detail_bottom_btn_txt_space"
+                    android:background="@mipmap/btn_a_c_management"/>
+
+                <TextView
+                    android:id="@+id/tvb4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop_detail_settle_account"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_d8d8d8"
+                    android:textSize="@dimen/shop_detail_bottom_block_sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

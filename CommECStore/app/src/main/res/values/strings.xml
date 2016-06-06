@@ -40,7 +40,20 @@
     <!-- S4 店鋪管理 -->
 
     <!-- S4.0.0門店管理 -->
-    <string name="shop_management_btn_shop_detail">查看店铺</string>
+    <string name="shop_detail_phone">店铺电话：%1$s</string>
+    <string name="shop_detail_address">店铺地址：%1$s</string>
+    <string name="shop_detail_btn_shop_detail">查看店铺</string>
+    <!-- middle -->
+    <string name="shop_detail_new_order">今日新订单</string>
+    <string name="shop_detail_today_sum_num">￥ %1$d</string>
+    <string name="shop_detail_today_sum">今日营业额</string>
+    <string name="shop_detail_sum_30_days_num">￥ %1$d</string>
+    <string name="shop_detail_sum_30_days">近30天营收</string>
+
+    <string name="shop_detail_browse_goods">浏览商品</string>
+    <string name="shop_detail_order_management">订单管理</string>
+    <string name="shop_detail_message_centre">消息中心</string>
+    <string name="shop_detail_settle_account">结算管理</string>
 
 
     <!-- S6 我的設置 -->
