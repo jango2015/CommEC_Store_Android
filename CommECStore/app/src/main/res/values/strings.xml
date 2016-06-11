@@ -55,11 +55,16 @@
     <string name="shop_detail_message_centre">消息中心</string>
     <string name="shop_detail_settle_account">结算管理</string>
 
-    <!-- 消息中心 S4.4.0 -->
-    <string name="message_header_title">消息</string>
+        <!-- S4.4.0 消息中心 -->
+        <string name="message_header_title">消息</string>
 
-    <!-- S6 我的設置 -->
 
+    <!-- S6.0.0我的設置 -->
+    <string name="setting_title">我的设置</string>
+    <string name="setting_notification">提醒通知</string>
+    <string name="setting_about_us">关于我们</string>
+    <string name="setting_clean">清除缓存</string>
+    <string name="setting_signout">退出登录</string>
 
 
 </resources>

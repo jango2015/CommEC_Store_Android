@@ -95,4 +95,12 @@
     <dimen name="message_item_right_space">6dp</dimen>                 <!-- item date 與右緣距離 -->
 
 
+    <!-- S6.0.0我的設置 -->
+    <dimen name="setting_item_h">50dp</dimen>                          <!-- item 高度 -->
+    <dimen name="setting_item_lr_space">16.7dp</dimen>                 <!-- item 內部左右緣距離 -->
+    <dimen name="setting_item_sp">21.3sp</dimen>                       <!-- item 文字大小 -->
+    <dimen name="setting_btn_bottom_space">50dp</dimen>                <!-- 登出按鈕與底緣 距離 -->
+
+
+
 </resources>

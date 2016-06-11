@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@mipmap/img_navi_background"
-        >
+        android:background="@mipmap/img_navi_background">
 
         <ImageButton
             android:id="@+id/ibtn_return"
@@ -19,7 +18,7 @@
             android:layout_marginLeft="@dimen/common_ddou_return_left_space"
             android:layout_marginTop="@dimen/common_ddou_return_top_space"
             android:background="@drawable/selector_btn_return_white"
-            android:contentDescription="return"/>
+            android:contentDescription="return" />
 
         <TextView
             android:id="@+id/tv_header_title"
@@ -30,13 +29,12 @@
             android:text="@string/message_header_title"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/header_txt_sp"/>
-
+            android:textSize="@dimen/header_txt_sp" />
 
     </RelativeLayout>
 
     <ListView
+        android:id="@+id/lv_message"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/lv_message"/>
+        android:layout_height="wrap_content" />
 </LinearLayout>
