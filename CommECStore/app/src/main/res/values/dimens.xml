@@ -83,5 +83,16 @@
     <dimen name="shop_detail_bottom_block_sp">16sp</dimen>                <!-- 店鋪 底部區塊 文字大小 -->
     <dimen name="shop_detail_bottom_btn_txt_space">18.3dp</dimen>         <!-- 店鋪 底部區塊 按鈕文字與 icon 距離 -->
 
+    <!-- 消息中心 S4.4.0 -->
+    <dimen name="message_item_h">70dp</dimen>                          <!-- item 高度 -->
+    <dimen name="message_item_icon_left_space">13.3dp</dimen>          <!-- item icon 與左緣距離 -->
+    <dimen name="message_item_icon_right_space">16.7dp</dimen>         <!-- item icon 與右邊文字距離 -->
+    <dimen name="message_item_subject_w">177.3dp</dimen>               <!-- item 主旨寬度 -->
+    <dimen name="message_item_subject_sp">16sp</dimen>                 <!-- item 訊息主旨文字大小 -->
+    <dimen name="message_item_txt_sp">12sp</dimen>                     <!-- item 訊息日期及描述文字大小 -->
+    <dimen name="message_item_desc_w">238.7dp</dimen>                  <!-- item 描述寬度 -->
+    <dimen name="message_item_middle_space">10dp</dimen>               <!-- item 文字與描述間距 -->
+    <dimen name="message_item_right_space">6dp</dimen>                 <!-- item date 與右緣距離 -->
+
 
 </resources>

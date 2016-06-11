@@ -55,6 +55,8 @@
     <string name="shop_detail_message_centre">消息中心</string>
     <string name="shop_detail_settle_account">结算管理</string>
 
+    <!-- 消息中心 S4.4.0 -->
+    <string name="message_header_title">消息</string>
 
     <!-- S6 我的設置 -->
 
