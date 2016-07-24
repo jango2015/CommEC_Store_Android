@@ -221,4 +221,12 @@
 
     <dimen name="order_return_require_shop_tb_space">11.7dp</dimen>      <!-- 店家回應 item 上下 距離 -->
 
+
+    <!-- S3.0.0訂單查詢-篩選 -->
+    <dimen name="order_search_tab_tb">3.3dp</dimen>                      <!-- tab btn 上下 距離 -->
+    <dimen name="order_search_tab_size">12sp</dimen>                     <!-- tab btn 文字大小 -->
+    <dimen name="order_search_tab_btn_space">16.7dp</dimen>              <!-- tab btn 間距 -->
+    <dimen name="order_search_tab_btn_lr_space">8.3dp</dimen>            <!-- tab btn 左右邊距 -->
+
+
 </resources>
