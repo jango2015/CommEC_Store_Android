@@ -67,4 +67,33 @@
     <string name="setting_signout">退出登录</string>
 
 
+    <!-- S2.0.0 訂單管理 -->
+    <string name="order_header_title">订单管理</string>
+    <string name="order_header_title_send">请寄货</string>
+    <string name="order_header_title_refund_reject">退货驳回</string>
+    <string name="order_header_title_confirm">确认</string>
+
+        <string name="order_detail_total_amount">共%1$d件商品</string>
+        <string name="order_detail_total">合计：</string>
+        <string name="order_detail_total_num">￥ %1$d</string>
+
+        <string name="order_goods_category">分类： %1$s</string>
+        <string name="order_goods_price">￥ %1$d</string>
+        <string name="order_goods_amount">x %1$d</string>
+
+        <!-- S2.0.0訂單管理-請寄貨-服務人員 -->
+        <string name="order_send">物流配送</string>
+        <string name="order_sender_go">服务人员己出发</string>
+        <string name="order_send_enter_company">请输入物流公司</string>
+        <string name="order_send_enter_id">请输入物流编号</string>
+
+        <!-- S2.0.0訂單管理-駁回原因 -->
+        <string name="order_send_refund_reason">请输入駁回原因</string>
+        <string name="order_send_require_id">请输入物流编号</string>
+
+    <!-- M2.2.2訂單詳情-申請售後原因 -->
+    <string name="order_return_reason">请输入退货原因</string>
+
+
+
 </resources>

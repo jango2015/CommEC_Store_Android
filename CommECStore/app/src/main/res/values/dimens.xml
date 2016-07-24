@@ -102,5 +102,61 @@
     <dimen name="setting_btn_bottom_space">50dp</dimen>                <!-- 登出按鈕與底緣 距離 -->
 
 
+    <!-- S2.0.0 訂單管理 -->
+    <dimen name="order_main_space">5dp</dimen>
+    <dimen name="order_detail_block_h">60dp</dimen>                      <!-- 收貨人資訊區塊 與 店家資訊區塊 高度 -->
+    <dimen name="order_detail_block_space_bottom">4dp</dimen>            <!-- 區塊 間距 -->
+
+        <!-- 買家資訊區塊 -->
+        <dimen name="order_buyer_h">40dp</dimen>                                   <!-- 買家資訊區塊 高度 -->
+        <dimen name="order_buyer_icon_bottom_space">12.3dp</dimen>                 <!-- icon 與下緣 距離 -->
+        <dimen name="order_buyer_icon_left_space">16dp</dimen>                     <!-- icon 與左緣 距離 -->
+        <dimen name="order_buyer_icon_right_space">4dp</dimen>                     <!-- icon 與右緣 距離 -->
+        <dimen name="order_buyer_icon_top_space">12.7dp</dimen>                    <!-- icon 與上緣 距離 -->
+        <dimen name="order_buyer_info_right_space">6.7dp</dimen>                   <!-- 買家 與右緣 距離 -->
+        <dimen name="order_buyer_info_left_space">15dp</dimen>                     <!-- 買家 與左緣 距離 -->
+
+        <dimen name="order_buyer_name_size">12sp</dimen>                          <!-- 買家 文字大小 -->
+        <dimen name="order_buyer_phone_left_space">6.7dp</dimen>                  <!-- 買家 電話與左側 距離 -->
+        <dimen name="order_buyer_phone_size">8sp</dimen>                          <!-- 買家 電話 文字大小 -->
+        <dimen name="order_buyer_address_size">8sp</dimen>                        <!-- 買家 地址 文字大小 -->
+        <dimen name="order_order_status_size">16sp</dimen>                        <!-- 訂單狀態 文字大小 -->
+
+        <dimen name="order_total_size">12sp</dimen>                               <!-- 訂單狀態 文字大小 -->
+        <dimen name="order_total_tr_space">6.7dp</dimen>                          <!-- 訂單總計 與上緣右緣 距離 -->
+        <dimen name="order_total_amount_left_space">16.7dp</dimen>                <!-- 總計 與上緣右緣 距離 -->
+        <dimen name="order_line_bottom_space">6.7dp</dimen>                       <!-- 分隔線 與下緣 距離 -->
+        <dimen name="order_line_top_space">6.7dp</dimen>                          <!-- 分隔線 與上緣 距離 -->
+        <dimen name="order_btn_bottom_space">6.7dp</dimen>                        <!-- 按鈕 與下緣 距離 -->
+        <dimen name="order_btn_right_space">13.3dp</dimen>                        <!-- 按鈕 與右緣 距離 -->
+
+        <!-- 商品項目 -->
+        <dimen name="order_detail_goods_photo_left_space">16.7dp</dimen>          <!-- 商品圖片與左緣 距離 -->
+        <dimen name="order_detail_goods_photo_right_space">6.7dp</dimen>          <!-- 商品圖片與右緣 距離 -->
+        <dimen name="order_detail_goods_photo_top_space">8.3dp</dimen>            <!-- 商品圖片與上緣 距離 -->
+        <dimen name="order_detail_goods_photo_bottom_space">10dp</dimen>          <!-- 商品圖片與下緣 距離 -->
+
+        <dimen name="order_detail_goods_info_right_space">5dp</dimen>             <!-- 商品資訊與右緣 距離 -->
+        <dimen name="order_detail_goods_info_top_space">8.3dp</dimen>             <!-- 商品資訊與上緣 距離 -->
+        <dimen name="order_detail_goods_info_space">6.7dp</dimen>                 <!-- 商品名稱金額與類別數量 距離 -->
+
+        <dimen name="order_detail_goods_name_size">12sp</dimen>                   <!-- 商品名稱 文字大小 -->
+        <dimen name="order_detail_goods_price_size">12sp</dimen>                  <!-- 商品金額 文字大小 -->
+        <dimen name="order_detail_goods_category_size">8sp</dimen>                <!-- 商品類別 文字大小 -->
+        <dimen name="order_detail_goods_amount_size">8sp</dimen>                  <!-- 商品數量 文字大小 -->
+
+        <!-- S2.0.0訂單管理-請寄貨 -->
+        <dimen name="order_send_check_space">13.3dp</dimen>                       <!-- 內距 -->
+        <dimen name="order_send_txt_size">21.3sp</dimen>                          <!-- 輸入框 文字大小 -->
+        <dimen name="order_send_cb_left_space">3.3dp</dimen>                      <!-- checkbox 與文字 距離 -->
+        <dimen name="order_send_et_left_space">16.7dp</dimen>                     <!-- 輸入框 左 距離 -->
+        <dimen name="order_send_et_right_space">21.7dp</dimen>                    <!-- 輸入框 右 距離 -->
+        <dimen name="order_send_tv_top_space">10dp</dimen>                        <!-- 文字 上 距離 -->
+        <dimen name="order_send_et_top_space">6.7dp</dimen>                       <!-- 輸入框 上 距離 -->
+
+        <!-- S2.0.0訂單管理-駁回原因 -->
+        <dimen name="order_return_reject_tv_tb_space">16.7dp</dimen>                <!-- 標題 與上下方 距離 -->
+        <dimen name="order_return_reject_et_lr_space">13.3dp</dimen>                <!-- 輸入框 與左右緣 距離 -->
+        <dimen name="order_return_reject_et_size">21.3sp</dimen>                    <!-- 輸入框 文字大小 -->
 
 </resources>

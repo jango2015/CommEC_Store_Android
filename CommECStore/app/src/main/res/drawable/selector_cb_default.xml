@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="false" android:drawable="@mipmap/img_not_confirm" android:color="@color/color_9b9b9b"/>
+    <item android:state_checked="true" android:drawable="@mipmap/img_confirm" android:color="@color/color_ec6c00"/>
+    <item android:drawable="@mipmap/img_not_confirm" android:color="@color/color_9b9b9b"/> <!-- default state -->
+</selector>
