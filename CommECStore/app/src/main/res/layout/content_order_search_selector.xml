@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/img_navi_background">
+
+        <ImageButton
+            android:id="@+id/ibtn_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/common_ddou_return_left_space"
+            android:layout_marginTop="@dimen/common_ddou_return_top_space"
+            android:background="@drawable/selector_btn_return_white"
+            android:contentDescription="return" />
+
+        <TextView
+            android:id="@+id/tv_header_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:text="@string/order_search_header_title_selector"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/header_txt_sp" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:text="@string/order_search_header_title_selector_confirm"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/header_txt_sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/order_search_selector_content_padding"
+        android:paddingRight="@dimen/order_search_selector_content_padding"
+        android:background="@android:color/white">
+
+        <EditText
+            android:id="@+id/et_search_condiction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/order_send_et_top_space"
+            android:background="@mipmap/img_square"
+            android:ems="11"
+            android:hint="@string/order_search_selector_search_hint"
+            android:inputType="text"
+            android:paddingLeft="@dimen/order_search_selector_txt_left"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/order_search_selector_et_size" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/order_search_selector_txt_tb_space"
+            android:layout_marginTop="@dimen/order_search_selector_txt_tb_space"
+            android:text="@string/order_search_selector_search_order_status"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_191919"
+            android:textSize="@dimen/order_search_selector_txt_size" />
+
+        <Spinner
+            android:id="@+id/sp_order_status"
+            android:layout_width="@dimen/order_search_selector_sp_status_w"
+            android:layout_height="@dimen/order_search_selector_sp_h"
+            android:background="@drawable/custom_spinner" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/order_search_selector_txt_tb_space"
+            android:text="@string/order_search_selector_search_order_dtae"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_191919"
+            android:textSize="@dimen/order_search_selector_txt_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/order_search_selector_txt_tb_space"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/order_search_tab_tb"
+            android:paddingTop="@dimen/order_search_tab_tb">
+
+            <Button
+                android:id="@+id/btn_today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@mipmap/btn_small_gray"
+                android:text="@string/order_search_tab_today"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/order_search_tab_size" />
+
+            <Button
+                android:id="@+id/btn_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/order_search_tab_btn_space"
+                android:layout_weight="1"
+                android:background="@mipmap/btn_small_gray"
+                android:text="@string/order_search_tab_this_week"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/order_search_tab_size" />
+
+            <Button
+                android:id="@+id/btn_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/order_search_tab_btn_space"
+                android:layout_weight="1"
+                android:background="@mipmap/btn_small_gray"
+                android:text="@string/order_search_tab_this_month"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/order_search_tab_size" />
+
+            <Button
+                android:id="@+id/btn_custom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/order_search_tab_btn_space"
+                android:layout_weight="1"
+                android:background="@mipmap/btn_small_gray"
+                android:text="@string/order_search_tab_custom"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/order_search_tab_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/order_search_selector_txt_tb_space"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_search_selector_search_start_date"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_191919"
+                    android:textSize="@dimen/order_search_selector_txt_size" />
+
+                <Spinner
+                    android:id="@+id/sp_start_date"
+                    android:layout_width="@dimen/order_search_selector_sp_date_w"
+                    android:layout_height="@dimen/order_search_selector_sp_h"
+                    android:layout_marginLeft="@dimen/order_search_selector_sp_left_space"
+                    android:background="@drawable/custom_spinner" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/order_search_selector_txt_tb_space"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_search_selector_search_end_data"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/color_191919"
+                    android:textSize="@dimen/order_search_selector_txt_size" />
+
+                <Spinner
+                    android:id="@+id/sp_end_date"
+                    android:layout_width="@dimen/order_search_selector_sp_date_w"
+                    android:layout_height="@dimen/order_search_selector_sp_h"
+                    android:layout_marginLeft="@dimen/order_search_selector_sp_left_space"
+                    android:background="@drawable/custom_spinner" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -121,11 +121,18 @@
     <!-- S3.0.0訂單查詢-篩選 -->
     <string name="order_search_header_title">订单查詢-待发货</string>
     <string name="order_search_header_title_selector">筛选</string>
+    <string name="order_search_header_title_selector_confirm">确认</string>
 
     <string name="order_search_tab_today">今日</string>
     <string name="order_search_tab_this_week">本周</string>
     <string name="order_search_tab_this_month">本月</string>
     <string name="order_search_tab_custom">自订</string>
+
+    <string name="order_search_selector_search_hint">订单编号/商品名称/用户名/用户登录号</string>
+    <string name="order_search_selector_search_order_status">订单状态</string>
+    <string name="order_search_selector_search_order_dtae">订购日期</string>
+    <string name="order_search_selector_search_start_date">起始日期</string>
+    <string name="order_search_selector_search_end_data">迄止日期</string>
 
 
 </resources>

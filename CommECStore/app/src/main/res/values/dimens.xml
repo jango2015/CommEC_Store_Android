@@ -228,5 +228,15 @@
     <dimen name="order_search_tab_btn_space">16.7dp</dimen>              <!-- tab btn 間距 -->
     <dimen name="order_search_tab_btn_lr_space">8.3dp</dimen>            <!-- tab btn 左右邊距 -->
 
+    <dimen name="order_search_selector_txt_tb_space">6.7dp</dimen>       <!-- 標題 上下 間距 -->
+    <dimen name="order_search_selector_txt_size">21.3sp</dimen>          <!-- 標題 上下 間距 -->
+    <dimen name="order_search_selector_content_padding">16.7dp</dimen>   <!-- 內容 左右邊距 -->
+    <dimen name="order_search_selector_et_size">16sp</dimen>             <!-- 輸入框 文字大小 -->
+    <dimen name="order_search_selector_txt_left">5dp</dimen>             <!-- 輸入框 文字與左緣 距離 -->
+    <dimen name="order_search_selector_sp_h">44.7dp</dimen>              <!-- 下拉選單 高 -->
+    <dimen name="order_search_selector_sp_status_w">321.7dp</dimen>      <!-- 訂單狀態 下拉選單 寬 -->
+    <dimen name="order_search_selector_sp_date_w">216.7dp</dimen>        <!-- 日期 下拉選單 寬 -->
+    <dimen name="order_search_selector_sp_left_space">23dp</dimen>       <!-- 下拉選單 與左側 距離 -->
+
 
 </resources>
