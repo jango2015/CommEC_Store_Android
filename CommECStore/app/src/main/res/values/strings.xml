@@ -134,5 +134,9 @@
     <string name="order_search_selector_search_start_date">起始日期</string>
     <string name="order_search_selector_search_end_data">迄止日期</string>
 
-
+    <!-- S4.2.0商品瀏覽 -->
+    <string name="shop_goods_overview_header_title">浏览商品</string>
+    <string name="shop_goods_overview_goods_price">￥ %1$d</string>
+    <string name="shop_goods_overview_goods_reserve_amount">库存量：%1$d</string>
+    <string name="shop_goods_overview_goods_sales_amount">销售量：%1$d</string>
 </resources>

@@ -13,6 +13,7 @@
     <dimen name="main_tab_txt_sp">10sp</dimen>                           <!-- Tab 文字大小 -->
     <dimen name="main_tab_top_space">2dp</dimen>                         <!-- Tab top space -->
     <dimen name="header_txt_sp">21.3sp</dimen>                           <!-- Header title 文字大小 -->
+    <dimen name="header_right_space">16.7dp</dimen>                      <!-- 抬頭區塊右側訊息圖示與右側的距離 -->
 
 
     <!-- S1 登入頁 -->
@@ -237,6 +238,30 @@
     <dimen name="order_search_selector_sp_status_w">321.7dp</dimen>      <!-- 訂單狀態 下拉選單 寬 -->
     <dimen name="order_search_selector_sp_date_w">216.7dp</dimen>        <!-- 日期 下拉選單 寬 -->
     <dimen name="order_search_selector_sp_left_space">23dp</dimen>       <!-- 下拉選單 與左側 距離 -->
+
+
+    <!-- S4.2.0商品瀏覽 -->
+    <dimen name="shop_goods_overview_searchview_top_space">13.5dp</dimen>                 <!-- 搜尋框與上方頁籤間距 -->
+    <dimen name="shop_goods_overview_searchview_bottom_space">13.3dp</dimen>              <!-- 搜尋框與下方分隔線間距 -->
+    <dimen name="shop_goods_overview_searchview_w">333.3dp</dimen>                        <!-- 搜尋框寬度 -->
+    <dimen name="shop_goods_overview_searchview_h">33.3dp</dimen>                         <!-- 搜尋框高度 -->
+    <dimen name="shop_goods_overview_searchview_edit_w">280dp</dimen>                     <!-- 搜尋框輸入區寬度 -->
+    <dimen name="shop_goods_overview_searchview_edit_left_space">16.3dp</dimen>           <!-- 搜尋框輸入框與左側距離 -->
+    <dimen name="shop_goods_overview_searchview_edit_sp">16sp</dimen>                     <!-- 搜尋框輸入框與左側距離 -->
+    <dimen name="shop_goods_overview_searchview_magnifier_right_space">16.7dp</dimen>     <!-- 搜尋框放大鏡按鈕與右邊距離 -->
+
+    <dimen name="shop_goods_overview_category_h">53.3dp</dimen>               <!--  類別區塊 高度 -->
+    <dimen name="shop_goods_overview_category_sp">12sp</dimen>                <!--  類別區塊 文字大小 -->
+
+    <dimen name="shop_goods_overview_shop_item_h">120dp</dimen>               <!-- goods item 高度 -->
+    <dimen name="shop_goods_overview_goods_item_photo_wh">83.3dp</dimen>      <!-- goods photo 寬高 -->
+
+    <dimen name="shop_goods_overview_item_top_space">6.7dp</dimen>            <!-- goods item left right -->
+    <dimen name="shop_goods_overview_item_price_top_space">10dp</dimen>       <!-- goods item 售價 與上方 距離 -->
+    <dimen name="shop_goods_overview_item_lr_space">13.3dp</dimen>            <!-- goods item left right -->
+    <dimen name="shop_goods_overview_item_tb_space">10dp</dimen>              <!-- goods item left right -->
+    <dimen name="shop_goods_overview_item_sp_1">16sp</dimen>         <!-- goods item 品名 售價 文字大小 -->
+    <dimen name="shop_goods_overview_item_sp_2">12sp</dimen>         <!-- goods item 庫存 銷售 文字大小 -->
 
 
 </resources>

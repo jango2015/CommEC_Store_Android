@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/img_navi_background">
+
+        <ImageButton
+            android:id="@+id/ibtn_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/common_ddou_return_left_space"
+            android:layout_marginTop="@dimen/common_ddou_return_top_space"
+            android:background="@drawable/selector_btn_return_white"
+            android:contentDescription="return" />
+
+        <TextView
+            android:id="@+id/tv_header_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:text="@string/shop_goods_overview_header_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/header_txt_sp" />
+
+        <ImageButton
+            android:id="@+id/ibtn_header_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/header_right_space"
+            android:background="@mipmap/navibtn_dots" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/shop_goods_overview_searchview_w"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/shop_goods_overview_searchview_bottom_space"
+        android:layout_marginTop="@dimen/shop_goods_overview_searchview_top_space"
+        android:background="@mipmap/search_text_box">
+
+        <EditText
+            android:id="@+id/et_search_search"
+            android:layout_width="@dimen/shop_goods_overview_searchview_edit_w"
+            android:layout_height="@dimen/shop_goods_overview_searchview_h"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/shop_goods_overview_searchview_edit_left_space"
+            android:background="@null"
+            android:textColor="@color/color_191919"
+            android:textSize="@dimen/shop_goods_overview_searchview_edit_sp" />
+
+        <ImageButton
+            android:id="@+id/ibtn_search_maganifier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/shop_goods_overview_searchview_magnifier_right_space"
+            android:background="@mipmap/img_icon_search" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_shop_goods_category"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/shop_goods_overview_category_h"
+        android:layout_below="@+id/rl_shop_detail_banner">
+    </android.support.v4.view.ViewPager>
+
+    <ListView
+        android:id="@+id/lv_goods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
