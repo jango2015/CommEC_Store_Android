@@ -73,9 +73,9 @@
     <string name="order_header_title_refund_reject">退货驳回</string>
     <string name="order_header_title_confirm">确认</string>
 
-        <string name="order_detail_total_amount">共%1$d件商品</string>
-        <string name="order_detail_total">合计：</string>
-        <string name="order_detail_total_num">￥ %1$d</string>
+        <string name="order_total_amount">共%1$d件商品</string>
+        <string name="order_total">合计：</string>
+        <string name="order_total_num">￥ %1$d</string>
 
         <string name="order_goods_category">分类： %1$s</string>
         <string name="order_goods_price">￥ %1$d</string>
@@ -91,9 +91,30 @@
         <string name="order_send_refund_reason">请输入駁回原因</string>
         <string name="order_send_require_id">请输入物流编号</string>
 
-    <!-- M2.2.2訂單詳情-申請售後原因 -->
-    <string name="order_return_reason">请输入退货原因</string>
+    <!-- S2.0.0訂單詳情 -->
+    <!-- 收貨人資訊區塊 -->
+    <string name="order_detail_header_title">订单详情</string>
+    <string name="order_detail_receiver">收货人: %1$s</string>
+    <string name="order_detail_address">收货地址: %1$s</string>
 
+    <!-- 店家資訊區塊 -->
+    <string name="order_detail_shop_phone">店铺电话:%1$s</string>
+    <string name="order_detail_shop_community">(%1$s小區/%2$s社區)</string>
+    <string name="order_detail_goods_category">分类：%1$s</string>
+    <string name="order_detail_goods_price">￥ %1$d</string>
+    <string name="order_detail_message">买家留言：%1$s</string>
+    <string name="order_detail_total_amount">共%1$d件商品</string>
+    <string name="order_detail_total">合计：</string>
+    <string name="order_detail_total_num">￥ %1$d</string>
+    <string name="order_detail_btn_del">删除订单</string>
 
+    <!-- 訂單資訊區塊 -->
+    <string name="order_detail_info_id">订单编号: %1$s</string>
+    <string name="order_detail_info_payment">支付方式: %1$s</string>
+    <string name="order_detail_info_logistics">物流名称: %1$s</string>
+    <string name="order_detail_info_logistics_id">物流编号: %1$s</string>
+    <string name="order_detail_info_order_time">下单时间: %1$s</string>
+    <string name="order_detail_info_pay_time">付款时间: %1$s</string>
+    <string name="order_detail_info_sent_time">发货时间: %1$s</string>
 
 </resources>

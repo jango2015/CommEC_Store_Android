@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_e3e3e3">
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_buyer_apply_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/order_return_require_time_bottom_space"
+                    android:layout_marginTop="@dimen/order_return_require_time_top_space"
+                    android:text="Require time"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_4a4a4a"
+                    android:textSize="@dimen/order_return_require_time_size" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/order_return_require_content_space"
+                    android:layout_marginRight="@dimen/order_return_require_content_space"
+                    android:background="@mipmap/img_message_white"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/order_return_require_content_space"
+                    android:paddingRight="@dimen/order_return_require_content_space">
+
+                    <TextView
+                        android:id="@+id/tv_buyer_require_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/order_return_require_title_bottom_space"
+                        android:layout_marginTop="@dimen/order_return_require_title_top_space"
+                        android:text="Require title"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/color_4a4a4a"
+                        android:textSize="@dimen/order_return_require_content_size" />
+
+                    <ImageView
+                        android:id="@+id/imageView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/img_line_1000" />
+
+                    <TextView
+                        android:id="@+id/tv_buyer_require_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/order_return_require_content_bottom_space"
+                        android:layout_marginTop="@dimen/order_return_require_content_top_space"
+                        android:text="Require content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/color_4a4a4a"
+                        android:textSize="@dimen/order_return_require_content_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lv_shop_response"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/order_return_require_list_top_space" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
