@@ -263,5 +263,31 @@
     <dimen name="shop_goods_overview_item_sp_1">16sp</dimen>         <!-- goods item 品名 售價 文字大小 -->
     <dimen name="shop_goods_overview_item_sp_2">12sp</dimen>         <!-- goods item 庫存 銷售 文字大小 -->
 
+    <!-- S4.2.1商品明細-評價 -->
+    <dimen name="goods_comment_commentator_sp">16sp</dimen>                <!-- 商品 評價 評論者 文字大小 -->
+    <dimen name="goods_comment_date_sp">12sp</dimen>                       <!-- 商品 評價 評論日期 文字大小 -->
+    <dimen name="goods_comment_comment_sp">12sp</dimen>                    <!-- 商品 評價 評論內容 文字大小 -->
+    <dimen name="goods_comment_item_h">80.3dp</dimen>                      <!-- 商品 評價 item 高度 -->
+    <dimen name="goods_comment_item_top_space">6.7dp</dimen>               <!-- 商品 評價 item 上緣 距離 -->
+    <dimen name="goods_comment_item_bottom_space">11dp</dimen>             <!-- 商品 評價 item 下緣 距離 -->
+    <dimen name="goods_comment_item_left_space">26.7dp</dimen>             <!-- 商品 評價 item 左緣 距離 -->
+    <dimen name="goods_comment_item_right_space">16.7dp</dimen>            <!-- 商品 評價 item 右緣 距離 -->
+    <dimen name="goods_comment_item_middle_space">12.1dp</dimen>           <!-- 商品 評價 item 中間 距離 -->
+    <dimen name="goods_comment_item_commentator_left_space">10dp</dimen>   <!-- 商品 評價 item 評論者左側 距離 -->
+    <dimen name="goods_comment_item_commentator_right_space">6.7dp</dimen> <!-- 商品 評價 item 評論者右側 距離 -->
+    <dimen name="goods_comment_item_shop_rating_h">11.3dp</dimen>          <!-- 商品 評價 item 評分區塊 高度 -->
+
+    <!-- S4.2.1商品明細-商品 -->
+    <dimen name="goods_info_goods_content_padding">13.3dp</dimen>          <!-- 內容 左右側縮 -->
+    <dimen name="goods_info_goods_photo_wh">100dp</dimen>                  <!-- 商品 照片 寬高 -->
+    <dimen name="goods_info_goods_photo_space">10dp</dimen>                <!-- 商品 照片 上下右 距離 -->
+    <dimen name="goods_info_goods_name_top">13.7dp</dimen>                 <!-- 商品 名稱 與頂部 距離 -->
+    <dimen name="goods_info_goods_name_sp">16sp</dimen>                    <!-- 商品 名稱 文字大小 -->
+
+    <dimen name="goods_info_goods_item_tb_padding">10dp</dimen>            <!-- 內容 左右側縮 -->
+    <dimen name="goods_info_goods_item_lr_padding">13.3dp</dimen>          <!-- 內容 左右側縮 -->
+    <dimen name="goods_info_goods_type_sp">21.3sp</dimen>                  <!-- 商品 名稱 文字大小 -->
+    <dimen name="goods_info_goods_item_info_top">10dp</dimen>              <!-- 內容 左右側縮 -->
+    <dimen name="goods_info_goods_sub_info_sp">16sp</dimen>                  <!-- 商品 名稱 文字大小 -->
 
 </resources>

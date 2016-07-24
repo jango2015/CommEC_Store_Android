@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_e3e3e3"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/goods_comment_item_left_space"
+        android:paddingRight="@dimen/goods_comment_item_right_space"
+        android:gravity="center_vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/goods_comment_item_middle_space"
+            android:layout_marginTop="@dimen/goods_comment_item_top_space">
+
+            <ImageView
+                android:id="@+id/iv_commentator_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/img_user" />
+
+            <TextView
+                android:id="@+id/tv_commentator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_commentator_icon"
+                android:text="Commentator"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/color_4a4a4a"
+                android:textSize="@dimen/goods_comment_commentator_sp"
+                android:layout_marginLeft="@dimen/goods_comment_item_commentator_left_space"
+                android:layout_marginRight="@dimen/goods_comment_item_commentator_right_space"/>
+
+            <RatingBar
+                android:id="@+id/rb_goods_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/goods_comment_item_shop_rating_h"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_commentator"
+                android:numStars="5"
+                android:progressDrawable="@drawable/custom_ratingbar"
+                android:rating="3.5"
+                android:stepSize="0.5"/>
+
+            <TextView
+                android:id="@+id/tv_comment_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="date"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/color_a3a3a3"
+                android:textSize="@dimen/goods_comment_date_sp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_goods_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="comment"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_4a4a4a"
+            android:textSize="@dimen/goods_comment_comment_sp"
+            android:layout_marginBottom="@dimen/goods_comment_item_bottom_space"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/goods_info_goods_item_tb_padding"
+        android:paddingLeft="@dimen/goods_info_goods_item_lr_padding"
+        android:paddingRight="@dimen/goods_info_goods_item_tb_padding"
+        android:paddingTop="@dimen/goods_info_goods_item_tb_padding">
+
+        <TextView
+            android:id="@+id/tv_goods_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/color_4a4a4a"
+            android:textSize="@dimen/goods_info_goods_type_sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/goods_info_goods_item_info_top">
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/shop_goods_detail_price"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_ec6c00"
+                android:textSize="@dimen/goods_info_goods_sub_info_sp" />
+
+            <TextView
+                android:id="@+id/tv_reserve_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/shop_goods_detail_reserve_amount"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_191919"
+                android:textSize="@dimen/goods_info_goods_sub_info_sp" />
+
+            <TextView
+                android:id="@+id/tv_sale_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="false"
+                android:layout_centerInParent="true"
+                android:text="@string/shop_goods_detail_sales_amount"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_191919"
+                android:textSize="@dimen/goods_info_goods_sub_info_sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
