@@ -148,5 +148,40 @@
     <string name="shop_goods_detail_reserve_amount">库存：%1$d</string>
     <string name="shop_goods_detail_sales_amount">销量：%1$d</string>
 
+    <!-- S4.4.0結算管理 -->
+    <!-- S4.4.0結算管理-查詢 -->
+    <string name="shop_billing_selector_header_title">查询</string>
+    <string name="shop_billing_selector">结帐月份</string>
+    <string name="shop_billing_selector_this_month">本月</string>
+    <string name="shop_billing_selector_three_months">三个月</string>
+    <string name="shop_billing_selector_half_year">半年</string>
+    <string name="shop_billing_selector_custom">自订</string>
+    <string name="shop_billing_selector_start_month">起始月份</string>
+    <string name="shop_billing_selector_end_month">迄止月份</string>
+    <string name="shop_billing_selector_list_item">%1$s结帐单</string>
+    <!-- S4.4.0 結算管理-總表 -->
+    <string name="shop_billing_summary_header_title">本期结算</string>
+    <string name="shop_billing_summary_settlement_date">结算日期</string>
+    <string name="shop_billing_summary_shop_id">商家编号</string>
+    <string name="shop_billing_summary_shop_name">店铺名称</string>
+    <string name="shop_billing_summary_community_manager">社区管理员</string>
+    <string name="shop_billing_summary_platform_manage">平台管理</string>
+    <string name="shop_billing_summary_shop_receivables">商家应收款项</string>
+    <string name="shop_billing_summary_payment">货款</string>
+    <string name="shop_billing_summary_system_commission">系统管理员佣金</string>
+    <string name="shop_billing_summary_platform_commission">平台佣金</string>
+    <string name="shop_billing_summary_shop_subtotal">商家应收小计：</string>
+    <string name="shop_billing_summary_shop_subtotal_price">￥ %1$d</string>
+    <string name="shop_billing_summary_btn_detail">查看明细</string>
+    <string name="shop_billing_summary_btn_other">查询其他月份</string>
+    <!-- S4.4.0 結算管理-明細 -->
+    <string name="shop_billing_detail_header_title">%1$s结算明细</string>
+    <string name="shop_billing_detail_order_id">订单编号： %1$d</string>
+    <string name="shop_billing_detail_order_payment">货款：</string>
+    <string name="shop_billing_detail_system_commission">系統管理員佣金：</string>
+    <string name="shop_billing_detail_platform_commission">平台佣金：</string>
+    <string name="shop_billing_detail_period_summary">本期合计</string>
+
+
 
 </resources>

@@ -290,4 +290,60 @@
     <dimen name="goods_info_goods_item_info_top">10dp</dimen>              <!-- 內容 左右側縮 -->
     <dimen name="goods_info_goods_sub_info_sp">16sp</dimen>                  <!-- 商品 名稱 文字大小 -->
 
+    <!-- S4.4.0結算管理 -->
+    <!-- S4.4.0結算管理-查詢 -->
+    <!-- S4.4.0結算管理-查詢 | 篩選條件按鈕區塊 -->
+    <dimen name="shop_billing_selector_text_sp">20sp</dimen>                     <!-- 結帳管理文字 文字大小 -->
+    <dimen name="shop_billing_selector_text_left_edge">10dp</dimen>              <!-- 結帳管理文字 左緣 距離 -->
+    <dimen name="shop_billing_selector_text_top_edge">6.7dp</dimen>              <!-- 結帳管理文字 上緣 距離 -->
+    <dimen name="shop_billing_selector_tab_top_edge">10.3dp</dimen>              <!-- 篩選按鈕群 上緣 距離 -->
+    <dimen name="shop_billing_selector_tab_bottom_edge">12.7dp</dimen>           <!-- 篩選按鈕群 下緣 距離 -->
+    <dimen name="shop_billing_selector_tab_btn_w">73.3dp</dimen>                 <!-- 篩選按鈕 寬 -->
+    <dimen name="shop_billing_selector_tab_btn_h">33.3dp</dimen>                 <!-- 篩選按鈕 高 -->
+    <dimen name="shop_billing_selector_tab_btn_left_right_edge">8.3dp</dimen>    <!-- 篩選按鈕 左右緣 距離 -->
+    <dimen name="shop_billing_selector_tab_btn_left">16.7dp</dimen>              <!-- 篩選按鈕 左側 距離 -->
+    <dimen name="shop_billing_selector_tab_btn_sp">12sp</dimen>                  <!-- 篩選按鈕 文字大小 -->
+    <!-- S4.4.0結算管理-查詢 | 起始月份選擇區塊 -->
+    <dimen name="shop_billing_selector_item_left_edge">13.3dp</dimen>            <!-- 月份選擇 左緣 距離 -->
+    <dimen name="shop_billing_selector_item_bottom_top_edge">6.7dp</dimen>       <!-- 月份選擇 上下緣 距離 -->
+    <dimen name="shop_billing_selector_item_txt_sp">20sp</dimen>                 <!-- 月份選擇 標題 文字大小 -->
+    <dimen name="shop_billing_selector_spinner_w">216.7dp</dimen>                <!-- 下拉選單 寬 -->
+    <dimen name="shop_billing_selector_spinner_h">44.7dp</dimen>                 <!-- 下拉選單 高 -->
+    <dimen name="shop_billing_selector_spinner_left">6.7dp</dimen>               <!-- 下拉選單 與左側文字 距離 -->
+    <dimen name="shop_billing_selector_spinner_right">11.3dp</dimen>             <!-- 下拉選單 與右側放大鏡icon 距離 -->
+    <dimen name="shop_billing_selector_listview_top">3.3dp</dimen>               <!-- 列表與上方區塊 距離 -->
+
+    <!-- S4.4.0 結算管理-總表 -->
+    <dimen name="shop_billing_summary_price_bottom">26.7dp</dimen>               <!-- 金額區塊 下方 距離 -->
+    <dimen name="shop_billing_summary_price_top">41dp</dimen>                    <!-- 金額區塊 上方 距離 -->
+    <dimen name="shop_billing_summary_price_left">10dp</dimen>                   <!-- 金額區塊 金額與左方icon 距離 -->
+    <dimen name="shop_billing_summary_price_sp">48sp</dimen>                     <!-- 金額區塊 金額 文字大小 -->
+    <!-- S4.4.0 結算管理-總表 | 中間區塊 -->
+    <dimen name="shop_billing_summary_centre_block_padding_left">16.7dp</dimen>    <!-- 中間區塊 內緣 -->
+    <dimen name="shop_billing_summary_centre_block_item_w">290dp</dimen>           <!-- 中間區塊 寬度 -->
+    <dimen name="shop_billing_summary_centre_block_item_bottom">6.7dp</dimen>      <!-- 中間區塊 寬度 -->
+    <dimen name="shop_billing_summary_centre_block_item_top">13.3dp</dimen>        <!-- 中間區塊 寬度 -->
+    <dimen name="shop_billing_summary_centre_block_item_top10">10dp</dimen>        <!-- 中間區塊 寬度 -->
+    <dimen name="shop_billing_summary_centre_block_item_top83">8.3dp</dimen>       <!-- 中間區塊 寬度 -->
+    <dimen name="shop_billing_summary_centre_block_item_subtotal_top">25dp</dimen> <!-- 中間區塊 寬度 -->
+    <dimen name="shop_billing_summary_centre_block_sp">16sp</dimen>                <!-- 中間區塊 文字大小 -->
+    <!-- S4.4.0 結算管理-總表 | 底下按鈕 -->
+    <dimen name="shop_billing_summary_bottom_btn_sp">21.3sp</dimen>                <!-- 按鈕 文字大小 -->
+    <dimen name="shop_billing_summary_bottom_btn_detail_top">23.3dp</dimen>        <!-- 明細按鈕 上緣 -->
+    <dimen name="shop_billing_summary_bottom_btn_other_bottom">17.7dp</dimen>      <!-- 其他按鈕 下緣 -->
+    <dimen name="shop_billing_summary_bottom_btn_other_top">10dp</dimen>           <!-- 其他按鈕 上緣 -->
+
+    <!-- S4.4.0 結算管理-明細 -->
+    <dimen name="shop_billing_detail_item_title_sp">14sp</dimen>                   <!-- item title 文字大小 -->
+    <dimen name="shop_billing_detail_item_padding_left_right">20dp</dimen>         <!-- item 左右緣 -->
+    <dimen name="shop_billing_detail_item_padding_top_bottom">6.7dp</dimen>        <!-- item 左右緣 -->
+    <dimen name="shop_billing_detail_item_title_top_bottom_edge">3.3dp</dimen>     <!-- item title 上下緣 距離 -->
+    <dimen name="shop_billing_detail_item_order_id_sp">16sp</dimen>                <!-- item 訂單編號 文字大小 -->
+    <dimen name="shop_billing_detail_item_txt_sp">12sp</dimen>                     <!-- item 內容 文字大小 -->
+    <dimen name="shop_billing_detail_item_txt_top">3.3dp</dimen>                   <!-- item 內容 上距 -->
+    <dimen name="shop_billing_detail_item_txt_left">33.3dp</dimen>                 <!-- item 內容 左距 -->
+    <!-- S4.4.0 結算管理-明細 | 本期合計 -->
+    <dimen name="shop_billing_detail_period_summary_item_title_sp">16sp</dimen>    <!-- item 本期總結 title 文字大小 -->
+
+
 </resources>
